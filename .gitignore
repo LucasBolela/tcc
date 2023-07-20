@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+__pycache__
+# db.sqlite3
+venv
+env
+.DS_Store
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+#Env
+.env
+postgres-data
+
+# Deploy
+Procfile
+runtime.txt
+db.sqlite3
+
+# Config file
+config.py
